@@ -1,0 +1,89 @@
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #f4f4f9;
+  }
+
+  p {
+    font-size: 40px;
+    color: #631758;
+    font-style: italic;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  .commonD {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 50px;
+  }
+
+  #datetime-picker {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 20px;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid #631758;
+  }
+
+  button[data-start] {
+    width: 100px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #f5cef9;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    box-shadow: 0 4px 8px rgba(62, 21, 52, 0.3);
+  }
+
+  button[data-start]:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+  button:hover {
+    background-color: #9b2b92;
+  }
+
+  .timer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    margin: 20px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #fff;
+    background-color: #ab5685;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(62, 21, 52, 0.3);
+    border: 2px solid #631758;
+  }
+
+  .field {
+    text-align: center;
+  }
+
+  .value {
+    font-size: 40px;
+    display: block;
+  }
+
+  .commonB {
+    margin-bottom: 30px;
+    padding: 5px;
+    font-size: 15px;
+    width: 70px;
+    border-radius: 10px;
+    border: 1px solid #631758;
+  }
